@@ -1,4 +1,3 @@
-console.log('Hello!');
 let employees = [
   {
     name : 'Abhishek',
@@ -57,7 +56,6 @@ let employees = [
     address:'Kolkata'
   }
 ]
-let display=true;
 function showemployesfun(){
 let container=document.getElementById("container");
 
@@ -78,14 +76,6 @@ employees.forEach((ele,index)=>{
 
 
 container.innerHTML = div2;
-display=!display
-if(display){
-  container.style.display='none';
-
-}else{
-  container.style.display='block';
-
-}
 }
 
 
